@@ -1,0 +1,23 @@
+.yan-yana-liste{
+    
+    padding-left: 20%;
+    display: flex; /* Liste öğelerini yatayda sıralar */
+    flex-wrap: wrap; /* Yatayda sığmayan öğeleri alt satıra atar */
+    gap: 20px; /* Öğeler arasına 20 piksel boşluk ekler (isteğe bağlı) */
+}
+
+
+
+.yan-yana-liste li {
+    flex-basis: calc(50% - 20px); /* İki öğeyi yatayda eşit genişlikte yapar ve boşlukları ayarlar */
+    margin-bottom: 20px; /* Alt boşluk ekler (isteğe bağlı) */
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
