@@ -1,0 +1,44 @@
+.img-container{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.ort{
+    text-align: center;
+    padding: 5px;
+}
+.font-size1{
+    font-size: 17px;
+}
+.marginL{
+    margin-left:30px; 
+}
+.marginR{
+    margin-right:30px;
+}
+.blue-1{
+    background-color: #7ee5da;
+
+}
+.blue-2{
+    background-color:#70ccc2;
+
+}
+.blue-3{
+    background-color:#62b3aa;
+}
+
+.column {
+    flex:1;
+    border: 1px black;
+    text-align: center;
+    margin: 1.5px;
+}
+.row {
+    display: flex;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+}
